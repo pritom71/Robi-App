@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/status" />
+    <padding android:bottom="30dp"></padding>
+    <corners
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"/>
+    <!-- Adjust the radius to change the roundness -->
+</shape>
+

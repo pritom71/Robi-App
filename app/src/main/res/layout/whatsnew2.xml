@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:id="@+id/parent_layout">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="380dp"
+        app:cardCornerRadius="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="210dp">
+        <TextView
+            android:id="@+id/header_whtsnew2"
+            android:text="Heloo loo loo"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:layout_marginTop="32dp"
+            android:background="#E9EAE8"
+            android:scaleType="fitXY"
+            android:id="@+id/image_Card_3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

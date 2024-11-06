@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.Signup_fragment">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:padding="20dp">
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+      android:layout_gravity="center"
+         android:text="Let's Get A New Experiene In Life!"
+         android:textColor="#5E5C5C"
+         android:textSize="25dp"
+         android:gravity="center"
+         android:textStyle="bold">
+
+     </TextView>
+
+     <EditText
+         android:layout_width="250dp"
+         android:layout_height="50dp"
+         android:hint="Enter Your Robi Number"
+         android:textSize="16dp"
+         android:inputType="number"
+         android:layout_marginLeft="6dp"
+         android:layout_marginTop="15dp"
+         android:padding="8dp"
+         android:drawableLeft="@drawable/enter"
+         android:drawablePadding="8dp"
+         android:background="@drawable/edit_text_login"
+         android:layout_gravity="center">
+
+     </EditText>
+
+     <Button
+         android:id="@+id/btn_next"
+         android:layout_marginTop="8dp"
+         android:backgroundTint="#43A047"
+         android:layout_width="wrap_content"
+         android:layout_gravity="center"
+         android:text="Request OTP"
+         app:cornerRadius = "30dp"
+         android:textColor="#FFFFFF"
+         android:layout_height="wrap_content">
+     </Button>
+     <TextView
+         android:layout_marginTop="13dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="Other ways to Login">
+     </TextView>
+
+     <ImageView
+         android:src="@drawable/gmail"
+         android:layout_gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+     </ImageView>
+
+ </LinearLayout>
+
+</LinearLayout>
